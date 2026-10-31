@@ -3,7 +3,7 @@
 ## 1. Git and GitHub
 
 ### Git
-Git is a distributed version control system (DVCS). I use it to track changes in source code, maintain version history, and collaborate with other developers.
+Git is a distributed version control system (DVCS). It is used to track changes in source code, maintain version history, and collaborate with other developers.
 
 ### GitHub
 GitHub is a cloud-based platform used to host Git repositories and collaborate through pull requests, code reviews, issues, and GitHub Actions.
@@ -33,8 +33,8 @@ GitHub is a cloud-based platform used to host Git repositories and collaborate t
 
 Git has four main areas:
 
-1. **Working directory:** The files I create or modify.
-2. **Staging area:** The changes I select for the next commit.
+1. **Working directory:** The files we create or modify.
+2. **Staging area:** The changes we select for the next commit.
 3. **Local repository:** The committed history stored locally in `.git`.
 4. **Remote repository:** A shared repository hosted on GitHub or another Git server.
 
@@ -136,7 +136,7 @@ git remote -v
 ### Push code to GitHub
 
 ```bash
-git push -u origin main
+git push -u origin main(master)
 ```
 
 - `origin` is the remote name.
@@ -505,7 +505,7 @@ GitHub is a platform for hosting Git repositories and collaborating through pull
 Git is the version-control tool; GitHub hosts Git repositories and provides collaboration features.
 
 **4. What is a commit?**  
-A commit is a saved snapshot of staged changes in the local repository.
+A commit records staged changes in the Git repository. Meaningful commit messages make the project history easier for developers to understand and maintain.
 
 **5. What is the staging area?**  
 It is the area where I select changes that will be included in the next commit.
